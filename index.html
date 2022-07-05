@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="./index.html" class="site-link">
+                    <img src="./images/logo.svg" width="234" height="33" alt="site logo">
+                </a>
+                <button class="btn header-btn text-dark">Dark Mode</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="countries-section">
+            <div class="container">
+                <div class="countries-wrapper">
+                    <div class="countries-start">
+                        <form action="https://echo.htmlacademy.ru/courses" class="countries-search-form">
+                            <label class="countries-form-label">
+                                <input class="countries-search-input" aria-label="Search for a country" type="search"
+                                    placeholder="Search for a country">
+                            </label>
+                        </form>
+                        <select name="user_region" class="user-region">
+                            <option class="user-option" selected hidden>Filter by Region</option>
+                            <option value="africa" class="user-option">Africa</option>
+                            <option value="africa" class="user-option">America</option>
+                            <option value="africa" class="user-option">Asia</option>
+                            <option value="africa" class="user-option">Europe</option>
+                            <option value="africa" class="user-option">Oceania</option>
+                        </select>
+                    </div>
+
+                    <!-- countries list -->
+                    <ul class="countries-list">
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/germany.jpg" width="264" height="160"
+                                srcset="./images/germany.jpg 1x , ./images/germany@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Germany</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">81,70,900</span></strong>
+
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Europe</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">Berlin</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/usa.jpg" width="264" height="160"
+                                srcset="./images/usa.jpg 1x ,./images/usa@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">United States of America</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">323,947,000</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Americas</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Washington, DC</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/brazil.jpg" width="264" height="160"
+                                srcset="./images/brazil.jpg 1x , ./images/brazil@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Brazil</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">206,135,893</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Americas</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Brasilia</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/island.jpg" width="264" height="160"
+                                srcset="./images/island.jpg 1x , ./images/island@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Iceland</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">334,300</span></strong>
+
+                                    </li>
+                                    <li class="country-info-item"><strong class="country-info-strong text-black">Region:
+                                            <span class="country-info-span">Europe</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Reykjavík</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/afghanistan.jpg" width="264" height="160"
+                                srcset="./images/afghanistan.jpg 1x , ./images/afghanistan@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Afghanistan</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">27,657,145</span></strong>
+
+                                    </li>
+                                    <li class="country-info-item"><strong class="country-info-strong text-black">Region:
+                                            <span class="country-info-span">Asia</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Kabul</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/aland_islands.jpg" width="264" height="160"
+                                srcset="/images/aland_islands.jpg 1x , /images/aland_islands@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Aland Islands</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">28675</span></strong>
+
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Europe</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Mariehamn</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/albania.jpg" width="264" height="160"
+                                srcset="./images/albania.jpg 1x , ./images/albania@2x.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Albany</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">2,886,08-26</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Europe</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Tirana</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+
+                        <li class="country-item">
+                            <img class="country-img" src="./images/algeria.jpg" width="264" height="160"
+                                srcset="./images/algeria.jpg 1x , ../images/algeria.jpg 2x"></img>
+                            <div class="country-item-wrapper">
+                                <h3 class="country-item-title text-black">Algeria</h3>
+                                <ul class="country-info-list">
+                                    <li class="country-info-item">
+                                        <strong class="country-info-strong text-black">Population: <span
+                                                class="country-info-span">40.400.000</span></strong>
+
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Region: <span
+                                                class="country-info-span">Africa</span></strong>
+                                    </li>
+                                    <li class="country-info-item"><strong
+                                            class="country-info-strong text-black">Capital: <span
+                                                class="country-info-span">Agiers</span></strong>
+                                    </li>
+                                </ul>
+                        </li>
+                </div>
+
+                </ul>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
